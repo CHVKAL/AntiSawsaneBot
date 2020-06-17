@@ -8,4 +8,4 @@ clientDiscord.on('message', function(message) {
     }
 });
 
-clientDiscord.login("NzIyODA3OTEzNzg1MzI3NjU2.Xuodow.PIzwJDa0R-4qLXnvX5XAzcHKULI");
+clientDiscord.login(process.env.TOKEN);
