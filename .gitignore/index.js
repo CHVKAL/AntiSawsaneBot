@@ -7,13 +7,13 @@ require('events').EventEmitter.prototype._maxListeners = 1000;
 
 // VARIABLES
 const clientDiscord = new Discord.Client();
-const PREFIX = "!bg";
+const PREFIX = "!saws";
 
 // EVENEMENTS
 
 clientDiscord.on('ready', () => {
     console.log("> initialisation du bot : OK!");
-    clientDiscord.user.setActivity("aimer Wassila ❤️");
+    clientDiscord.user.setActivity("détester Sawsane");
 });
 
 
