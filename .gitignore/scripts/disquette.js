@@ -3,6 +3,7 @@ const clientDiscord = new Discord.Client();
 const config = require('./config.json');
 const PREFIX = "!bg";
 
+/*
 disquette_1 = "Je ne parle qu'à toi Wassila ❤️";
 disquette_2 = "Ma vie n'est rien sans toi Wassila... ❤️";
 disquette_3 = "Je t'aime plus que tout mon coeur ❤️";
@@ -30,5 +31,6 @@ clientDiscord.on('message', function(message) {
         }
     }
 });
+*/
 
 clientDiscord.login(process.env.TOKEN);
